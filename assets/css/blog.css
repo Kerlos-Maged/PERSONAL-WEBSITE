@@ -1,0 +1,226 @@
+.f-post { 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #e0e0e0;
+}
+
+.f-post .container-post {
+  background-color: #e0e0e0;
+  width: 50%;
+  margin: 0px auto;
+  padding: 110px 0px 60px 0px; 
+}
+
+.f-post .container-post .author {
+  display: flex;
+  align-items: center;
+}
+
+
+.f-post .container-post .author .author-name {
+  font-size: 22px;
+  margin-left: 25px;
+  text-align: center;
+  color: #0e0e0e;
+}
+
+.f-post .container-post .author .img {
+  width: 50px;
+  height: 50px;
+}
+
+.f-post .container-post .author .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.f-post .container-post .head-post h1 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #01B0D3;
+}
+
+.f-post .container-post .content-post p {
+  font-size: 21px;
+  margin-top: 30px;
+  line-height: 1.7;
+  color: #121212;
+}
+
+.f-post .container-post .content-post .img {
+  width: 100%;
+  height: 500px;
+  margin: 50px 0px;
+}
+
+.f-post .container-post .content-post .img img {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.f-post .container-post .content-post h3 {
+  font-size: 30px;
+  color: #01B0D3;
+}
+
+.f-post .container-post .content-post ul {
+  margin-left: 15px;
+}
+
+.f-post .container-post .content-post ul li {
+  margin: 10px 0px;
+  font-size: 22px;
+  color: #121212;
+}
+
+.f-post .container-post .content-post .sec .sup-head h2 {
+  font-size: 32px;
+  color: #02c0e6;
+}
+
+.f-post .container-post .content-post .sec {
+  margin-top: 40px;
+}
+
+.f-post .container-post .content-post .sec .gallary{
+  margin: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
+  gap: 20px;  
+  justify-content: center;
+}
+.f-post .container-post .content-post .sec .gallary img {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+}
+.f-post .container-post .content-post .sec:last-child {
+  border-bottom: 1px solid #000;
+  padding-bottom: 40px;
+}
+
+.f-post .container-post .social-post {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.f-post .container-post .social-post .content span {
+  margin-top: 10px;
+}
+
+.f-post .container-post .social-post .share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-post .container-post .social-post .share a {
+  text-transform: uppercase;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+
+.f-post .container-post .about-author {
+  width: 300px;
+  margin-left: 10px;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.f-post .container-post .about-author h3{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.f-post .container-post .about-author p {
+  color: #121212;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1700px) {
+  .f-post .container-post {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .f-post .container-post {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1200px ){
+  .f-post .container-post {
+    width: 80%;
+  }
+  .f-post .container-post .head-post {
+    font-size: 16px;
+  }
+  .f-post .container-post .content-post .sec .sup-head h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 860px){
+  .f-post .container-post {
+    width: 85%;
+  }
+  .f-post .container-post .head-post h1 {
+    font-size: 30px;
+  }
+  .f-post .container-post .content-post .sec .sup-head h2 {
+    font-size: 26px;
+  }
+  .f-post .container-post .content-post p {
+    font-size: 20px;
+  }
+  .f-post .container-post .content-post .img {
+    height: 350px;
+  }
+  .f-post .container-post .content-post .img img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .f-post .container-post {
+    width: 90%;
+  }
+  .f-post .container-post .content-post .img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .f-post .container-post {
+    width: 95%;
+  }
+  .f-post .container-post .content-post .img {
+    height: 250px;
+    margin: 30px 0px;
+  }
+  .f-post .container-post .content-post .sec .sup-head h2 {
+    font-size: 24px;
+  }
+  .f-post .container-post .head-post h1 {
+    font-size: 28px;
+  }
+  f-post .container-post .content-post .sec .gallary {
+    gap: 10px;
+  }
+  .f-post .container-post .content-post .sec .gallary img {
+    width: 90%;
+    margin: 0px auto;
+    height: 200px;
+  }
+  .f-post .container-post .content-post p {
+    font-size: 18px;
+  }
+}
